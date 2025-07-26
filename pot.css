@@ -232,6 +232,14 @@ body {
 #linkdin2:hover {
 	filter: brightness(6);
 }
+#link3 {
+	background-color: rgb(31, 49, 48);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
 /*contact section */
 .contact {
 	border: 2px solid white;
