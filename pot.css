@@ -201,6 +201,7 @@ body {
 #link:hover {
 	filter: brightness(6);
 }
+/*second project linkedin*/
 #linkedin {
 	background-color: rgb(31, 49, 48);
 	display: flex;
@@ -208,6 +209,28 @@ body {
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
+}
+#linkdin1 {
+	font-size: 40px;
+	color: rgb(45, 186, 233);
+	border-radius: 3px;
+}
+#linkedin span {
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+#linkedin i:hover {
+	filter: drop-shadow(0 0 10px rgb(45, 186, 233));
+	cursor: pointer;
+}
+#linkdin2 {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+#linkdin2:hover {
+	filter: brightness(6);
 }
 /*contact section */
 .contact {
