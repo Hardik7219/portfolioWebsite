@@ -10,16 +10,26 @@
 }
 @keyframes load {
 	0% {
-		opacity: 0;
-		transform: rotateY(0%);
+		filter: opacity(0);
+		margin-left: 500px;
+		flex-wrap: wrap;
+		transform: perspective(1000px) scale(0.1);
+		transform: scale(0);
+		transform: rotateX(0%);
 	}
 	50% {
-		opacity: 0.5;
-		transform: rotateY(50%);
+		filter: opacity(0.5);
+		margin-left: 300px;
+		transform: scale(0.5);
+		transform: rotateX(50%);
 	}
 	100% {
-		opacity: 1;
-		transform: rotateY(100%);
+		filter: opacity(1);
+		margin-left: 0px;
+		flex-wrap: nowrap;
+		transform: perspective(1000px) scale(1);
+		transform: scale(1);
+		transform: rotateX(100%);
 	}
 }
 .ani {
