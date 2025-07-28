@@ -40,7 +40,8 @@
 html {
 	scroll-behavior: smooth;
 }
-.glowing:hover{
+.glowing:hover {
 	filter: drop-shadow(0 0 10px rgb(37, 162, 200));
 	cursor: pointer;
+	transform: scale(1.1);
 }
