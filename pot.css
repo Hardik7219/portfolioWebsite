@@ -258,5 +258,13 @@ body {
 }
 #name {
 	border: none;
-	background: none;
+}
+#form label {
+	position: absolute;
+}
+#name:valid ~ label,
+#form label::after {
+	content: 'Name';
+	color: white;
+	font-size: 1.2em;
 }
