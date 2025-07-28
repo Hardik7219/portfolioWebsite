@@ -232,8 +232,31 @@ body {
 .contact {
 	border: 2px solid white;
 	width: 90%;
-	height: 30em;
+	height: 50em;
+	background-color: #302f2f;
 	position: absolute;
 	margin-top: 1100px;
 	justify-self: center;
+}
+.form1 {
+	display: flex;
+	margin-top: 60px;
+	gap: 49px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.form1 h4 {
+	color: aqua;
+	font-size: 1.5em;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+#name {
+	border: none;
+	background: none;
 }
