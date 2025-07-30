@@ -33,12 +33,14 @@ animation();
 
 //projects
 
-const link = document.getElementById('link');
-link.target = '-blank';
-link.href = 'https://github.com/Hardik7219';
+const link = document.getElementById('link');//accessing the link element
+//adding event listener to the link element
+link.target = '-blank'; //setting the target attribute to open in a new tab
+link.href = 'https://github.com/Hardik7219'; //opening the link to the github profile in new tab
 
 const gitLogo = document
-	.getElementById('link2')
-	.addEventListener('click', () => {
+	.getElementById('link2') //accessing the gitLogo element
+	.addEventListener('click', () => { //adding event listener to the gitLogo element
+	//when the gitLogo element is clicked, it will open the github profile in a new
 		window.open('https://github.com/Hardik7219', '-blank');
 	});

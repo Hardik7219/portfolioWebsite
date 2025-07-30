@@ -258,13 +258,21 @@ body {
 }
 #name {
 	border: none;
+	background:none;
+	width: 300px;
+	height:2em;
+	filter: drop-shadow(0 0 5px #fff);
+	border-bottom: 1px solid #fff;
+	-webkit-filter: drop-shadow(0 0 5px #fff);
 }
-#form label {
+#label {
 	position: absolute;
-}
-#name:valid ~ label,
-#form label::after {
-	content: 'Name';
-	color: white;
+	transition: 0.5s;
+	color: #fff;
+	font-size: 1.2em;}
+#name:focus ~ #label,
+#name :valid ~ #label {
+	color: rgb(58, 217, 241);
 	font-size: 1.2em;
+	margin-top: -20px
 }
