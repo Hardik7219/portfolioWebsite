@@ -52,7 +52,7 @@ body {
 	background-size: cover;
 	justify-self: center;
 }
-.home h1 {
+#typing {
 	/*home section h1*/
 	color: aqua;
 	font-size: 4em;
@@ -248,7 +248,9 @@ body {
 }
 .form1 h4 {
 	color: aqua;
-	font-size: 1.5em;
+	font-size: 3em;
+	letter-spacing: 2px;
+
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #form {
@@ -275,4 +277,27 @@ body {
 	color: rgb(58, 217, 241);
 	font-size: 1.2em;
 	margin-top: -20px
+}
+#email{
+	border: none;
+	background:none;
+	width: 300px;
+	height:2em;
+	margin-top: 30px;
+	filter: drop-shadow(0 0 5px #fff);
+	border-bottom: 1px solid #fff;
+	-webkit-filter: drop-shadow(0 0 5px #fff);
+}
+#label2 {
+	position: absolute;
+	transition: 0.5s;
+	color: #fff;
+	font-size: 1.2em;
+	margin-top: 80px;
+}
+#email:focus ~ #label2,
+#email :valid ~ #label2 {
+	color: rgb(58, 217, 241);
+	font-size: 1.2em;
+	margin-top: 57px
 }
