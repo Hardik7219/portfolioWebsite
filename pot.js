@@ -1,3 +1,12 @@
+//header 
+let header=document.querySelector('.menu'); //get access of header element
+document.addEventListener('scroll',()=>{
+	header.style.position='fixed'; //when we scroll page header will be fixed
+	header.style.top='0'; //header will be at top of the page
+});
+
+
+
 //CREATE A LOGIC FOR NAVIGATION ON SAME PAGE
 const menuItems = document.querySelectorAll('.menu-sec'); //get access of all child elemnt of menu class or navbar
 
@@ -79,4 +88,4 @@ email.addEventListener("blur",()=>{ //addEventLisner on email field
 
 let btn=document.getElementById("btn"); //get access of send button
 
-btn.addEventListener("click",()=>{
+
