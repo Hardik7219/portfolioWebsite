@@ -230,7 +230,6 @@ body {
 }
 /*contact section */
 .contact {
-	border: 2px solid white;
 	width: 90%;
 	height: 50em;
 	background-color: #302f2f;
@@ -257,47 +256,76 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	height:350px;
+	background-color: #3a3a3b;
+	padding: 50px;
 }
 #name {
 	border: none;
-	background:none;
 	width: 300px;
 	height:2em;
-	filter: drop-shadow(0 0 5px #fff);
-	border-bottom: 1px solid #fff;
-	-webkit-filter: drop-shadow(0 0 5px #fff);
+	color: #cee6f2;
+	border-bottom: 1px solid #24ade8;
+	font-size: 1.5em;
+	filter: drop-shadow(0 0  1px #24ade8);
+	background: transparent;
 }
 #label {
 	position: absolute;
 	transition: 0.5s;
 	color: #fff;
-	font-size: 1.2em;}
+	font-size: 1.2em;
+}
 #name:focus ~ #label,
 #name :valid ~ #label {
 	color: rgb(58, 217, 241);
-	font-size: 1.2em;
-	margin-top: -20px
+	font-size: 1.5em;
+	margin-top: -30px
 }
 #email{
 	border: none;
-	background:none;
 	width: 300px;
 	height:2em;
 	margin-top: 30px;
-	filter: drop-shadow(0 0 5px #fff);
-	border-bottom: 1px solid #fff;
-	-webkit-filter: drop-shadow(0 0 5px #fff);
+	font-size: 1.5em;
+	filter: drop-shadow(0 0  1px #24ade8);
+	background: transparent;
+	color: #cee6f2;
+	border-bottom: 1px solid #24ade8;
 }
 #label2 {
 	position: absolute;
 	transition: 0.5s;
 	color: #fff;
 	font-size: 1.2em;
-	margin-top: 80px;
+	margin-top: 100px;
+	transition: .5s;
 }
 #email:focus ~ #label2,
 #email :valid ~ #label2 {
 	color: rgb(58, 217, 241);
-	font-size: 1.2em;
-	margin-top: 57px
+	font-size: 1.5em;
+	margin-top: 60px
+}
+#message{
+	color: #cee6f2;
+	width: 300px;
+	font-size: 1.5em;
+	margin-top: 20px;
+	filter: drop-shadow(0 0 1px #24ade8);
+	background: transparent;
+}
+#btn{
+	background-color: #24ade8;
+	height: 3rem;
+	width: 10rem;
+	margin-top: 20px;
+	align-self: center;
+	border-radius: 10px;
+	font-size: 1.4rem;
+	color: #171618; 
+	font-weight: 700;
+	border: none;
+	box-shadow: 1px 5px 0 1px;
+	transition: 0.5s;
 }

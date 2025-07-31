@@ -44,3 +44,39 @@ const gitLogo = document
 	//when the gitLogo element is clicked, it will open the github profile in a new
 		window.open('https://github.com/Hardik7219', '-blank');
 	});
+
+
+
+
+//contact  
+
+let name1=document.getElementById("name"); //get access of text field
+let label1=document.getElementById("label") //get access of text field label
+let check= (field,label)=>{ /// make a function to check if text field hade value or not
+	if(field.value=="")
+	{
+		//if text field dont't have value than red border will appear
+		field.style.border="1px solid red";
+		label.style.visibility="visible";
+	}
+	else
+	{
+		//if it hase a value than label will be remove
+		label.style.visibility="hidden";
+	}
+}
+name1.addEventListener("blur",()=>{
+	check(name1,label1)
+
+}); //addEventLisner on text field
+
+let email=document.getElementById("email");  //get access of email field
+let label2=document.getElementById("label2"); //get access of email field label
+
+email.addEventListener("blur",()=>{ //addEventLisner on email field
+	check(email,label2)
+});
+
+let btn=document.getElementById("btn"); //get access of send button
+
+btn.addEventListener("click",()=>{
