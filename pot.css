@@ -365,9 +365,9 @@ body {
 		gap: 4px;
 	}
 	.menu-sec {
+		width: 60px;
+		height: 40px;
 		font-size: 1em;
-	}
-	.menu-sec a{
 	}
 	.main{
 		height: 360rem;
