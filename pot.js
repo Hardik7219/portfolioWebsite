@@ -1,8 +1,11 @@
 //header 
-let header=document.querySelector('.menu'); //get access of header element
+let header=document.querySelector('.menu');
+let home=document.querySelector(".home") //get access of header element
 document.addEventListener('scroll',()=>{
 	header.style.position='fixed'; //when we scroll page header will be fixed
-	header.style.top='0'; //header will be at top of the page
+	header.style.top='0'; 
+	if(screenY>20)
+	home.style.position="fixed";//header will be at top of the page
 });
 
 
@@ -87,5 +90,3 @@ email.addEventListener("blur",()=>{ //addEventLisner on email field
 });
 
 let btn=document.getElementById("btn"); //get access of send button
-
-

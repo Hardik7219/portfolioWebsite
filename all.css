@@ -45,3 +45,13 @@ html {
 	cursor: pointer;
 	transform: scale(1.1);
 }
+.box{
+	height: 300px;
+	width: 300px;
+	display: flex;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	gap: 30px;
+	flex-direction: column;
+	background-color: var(--part-clr);
+	box-shadow: 0 0 10px #070809;
+}
