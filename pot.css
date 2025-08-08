@@ -282,6 +282,7 @@ body {
 	transition: 0.5s;
 	color: #fff;
 	font-size: 1.2em;
+	margin-top: 12PX;
 }
 #name:hover ~ #label,
 #name :valid ~ #label {
