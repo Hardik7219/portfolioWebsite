@@ -20,7 +20,7 @@ body {
 	height: 50px;
 	display: flex;
 	z-index: 100;
-	gap: 50px;
+	gap: 20px;
 	align-items: center;
 }
 .menu-sec {
