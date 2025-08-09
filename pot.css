@@ -370,6 +370,8 @@ body {
 	}
 	.main{
 		height: 360rem;
+		justify-content: none;
+		gap: 20px;
 	}
 	.home{
 		width: 100%;
