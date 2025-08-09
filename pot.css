@@ -368,10 +368,12 @@ body {
 		height: 40px;
 		font-size: 1em;
 	}
+	.menu{
+		justify-content: unset;
+		gap: 30px;
+	}
 	.main{
 		height: 360rem;
-		justify-content: unset ;
-		gap: 20px;
 	}
 	.home{
 		width: 100%;
